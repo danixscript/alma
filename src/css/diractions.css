@@ -1,9 +1,9 @@
 .map{
     width: 40vw;
     background-color: aqua;
-    min-height: 35vh;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    height: 35vh;
+   
+    margin-bottom: 250px;
     
 }
 .headerdirection{
@@ -11,4 +11,9 @@
     padding: 10px 20px 10px 20px;
     outline: 1px solid black;
     outline-offset: 5px;
+}
+.mapdir{
+    height: 100%;
+    width: 100%;
+    border: none;
 }

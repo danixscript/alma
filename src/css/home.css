@@ -1,5 +1,5 @@
 .backgroundImg{
-   max-height: 30%;
+   max-height: 20%;
     width: 20%;
     background-image: url('../images/tablealma.jpg');
 
@@ -99,7 +99,7 @@ transform: translateY(50px);
     font-size: 1.6rem;
     text-decoration: none;
 }
-.po{
+.op{
     opacity: 0;
     visibility: hidden;
     display: none;

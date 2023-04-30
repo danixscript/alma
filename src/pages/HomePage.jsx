@@ -66,13 +66,13 @@ function HomePage() {
         
 </div>
 
-     
+     <div className="paddingPage flexCol center"> 
 <GalerySec/>
 
       {/* <SquarsSection offsetY={offsetY}/>
       */}
         
-        <div className="paddingPage flexCol center">
+       
           <Diractions/>
         </div>
 

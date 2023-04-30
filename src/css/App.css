@@ -39,6 +39,9 @@
 .margin_top50{
     margin-top: 50px;
 }
+.margin_bottom50{
+    margin-top: 50px;
+}
 .margin_top200{
     margin-top: 200px;
 }
@@ -98,7 +101,7 @@ box-shadow: 3px 10px 30px white;
 
 
 .paddingPage{
-    width: 70%;
+    width:65vw;
     margin: 0 auto;
 }
 .w70{

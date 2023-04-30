@@ -51,13 +51,18 @@ exit={{ opacity:0 }}>
 <button className="btn font_size16 home_btn">תפריט</button>
 </div> */}      
       </motion.div>
-
+      <motion.div 
+className="flexCol center"
+transition={{duration:.75,delay:3,ease:'easeInOut'}}
+initial={{opacity:0 }}
+animate={{ opacity:1  }}
+exit={{ opacity:0 }}>
       <p className="smallHeader">יפו שבטי ישראל 14 </p>
       <br /><br /><br /> 
-      <div className="flexCol op btnDiv2 center po">
+      <div className="flexCol  op btnDiv2 center po">
         <NavLink className={'btnGallery2'}> תפריט</NavLink>
     </div>
-
+</motion.div>
 {/*             
             <ScrollContainerP className="h100vh w100 flexbottom bgimage">
              <ParallaxElement className='flexCenter h100 w100' dataPercent="20" dataDirection="y">
