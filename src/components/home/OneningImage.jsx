@@ -4,6 +4,7 @@ import {Animator, ScrollContainer, ScrollPage,Move,batch,Sticky,MoveOut,Fade, St
 import ScrollContainerP from "../../components/scrollparalex/ScrollContainerP";
 import ParallaxElement from "../../components/scrollparalex/ParllaxElement";
 import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 function OneningImage (props){
     const AnimationBatchmethod = batch(MoveOut(-200,0));
@@ -48,11 +49,14 @@ exit={{ opacity:0 }}>
 
 {/* <div className="buttonDiv flexCol center">
 <button className="btn font_size16 home_btn">תפריט</button>
-</div> */}
+</div> */}      
       </motion.div>
 
       <p className="smallHeader">יפו שבטי ישראל 14 </p>
-
+      <br /><br /><br /> 
+      <div className="flexCol op btnDiv2 center po">
+        <NavLink className={'btnGallery2'}> תפריט</NavLink>
+    </div>
 
 {/*             
             <ScrollContainerP className="h100vh w100 flexbottom bgimage">

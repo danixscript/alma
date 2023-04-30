@@ -6,8 +6,8 @@ function Diractions(props) {
   return (
     <div className=" flexCol center  "> 
   
-        <h1>?
-            אז איך מגיעים</h1>
+        {/* <p className="headerdirection">?
+            אז איך מגיעים</p> */}
 
      
     

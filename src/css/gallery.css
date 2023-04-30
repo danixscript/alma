@@ -1,0 +1,20 @@
+.gridGallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+    gap: 50px;
+    margin-top: 400px;
+}
+.btnDiv{
+    min-height: 20vh;
+    margin-bottom: 200px;
+}
+.btnGallery{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #262626;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    outline: 1px solid black;
+    outline-offset: 5px;
+}

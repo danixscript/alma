@@ -20,7 +20,7 @@ animation: slideShow 20s 2s infinite linear;
 .headerBig{
     /* font-size: 13em; */
     font-size: 8vw;
-    font-weight: 400;
+    font-weight: 100;
     display: inline;
     
 }
@@ -83,4 +83,24 @@ transform: translateY(50px);
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
+}
+.btnDiv2{
+
+  
+  
+    color: #262626;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    outline: 1px solid black;
+    outline-offset: 5px;
+  
+}
+.btnGallery2{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.po{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
 }

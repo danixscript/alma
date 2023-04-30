@@ -25,6 +25,7 @@ import SquarsSection from "../components/squars/SquarsSection";
 import AboutTest from "../components/about/AboutTest";
 import Diractions from "../components/diraction/Diractions";
 import Footer from "../components/footer/Footer";
+import GalerySec from "../components/gallerysec/GalerySec";
 
 
 
@@ -66,10 +67,10 @@ function HomePage() {
 </div>
 
      
-   {/* <div className="fullImage"></div> */}
+<GalerySec/>
 
-      <SquarsSection offsetY={offsetY}/>
-     
+      {/* <SquarsSection offsetY={offsetY}/>
+      */}
         
         <div className="paddingPage flexCol center">
           <Diractions/>

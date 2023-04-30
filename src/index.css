@@ -84,4 +84,15 @@ margin-bottom: 50px;
   .max-h{
     max-height: 80vh !important;
   }
+  .btnDiv{
+    margin-bottom: 100px !important;
+  }
+  .gridGallery{
+    margin-top: 100px !important;
+  }
+  .op{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
 }

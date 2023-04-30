@@ -17,6 +17,7 @@ import "../../css/about.css";
 import ScrollContainerP from "../../components/scrollparalex/ScrollContainerP";
 import ParallaxElement from "../../components/scrollparalex/ParllaxElement";
 import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 function AboutTest(props) {
   const AnimationBatchmethod = batch(MoveOut(-200, 0));
@@ -50,6 +51,9 @@ function AboutTest(props) {
             בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..
             בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..    בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..
             </p>
+            <div className="btnDiv2">
+              <NavLink className={'btnGallery2'}>תפריט</NavLink>
+            </div>
             <div className="twoDivs flexRow">
            <div className="rtl">
            <h3 className="h33">שמש מדקות ושמיים</h3>

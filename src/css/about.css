@@ -106,7 +106,7 @@ margin-bottom: 40px;
 }
 .h1{
    margin-bottom: 50px;
-    font-weight: 450;
+    font-weight: 150;
     font-size: 5vw;
 
 }
@@ -124,6 +124,7 @@ margin-bottom: 40px;
     margin-left: 30px;
   height: 100%;
   width: 75%;
+  opacity: 0;
   /* min-height: 220px; */
   background-position: center;
   border-top-right-radius: 30px;
