@@ -5,9 +5,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  .paddingPage {
+    width: 90% !important;
+  }
+  .links{
+    display: none;
+    visibility: hidden;
+  }
+  .centerforEnd{
+    justify-content: flex-start !important;
+    margin-top: 100px;
+  }
+  .divContainer {
+    flex-direction: column !important;
+  }
+  .imageSideAbout{
+    width: 100% !important;
+  }
+  .sideTow{
+    margin: 0 !important;
+  }
+  .backgroundImg {
+    width: 70% !important;
+  }
+  .w60{
+    width: auto !important;
+  }
+  .h1{
+    transform: translateY(0px) !important;
+  }
+  .headerBig{
+    transform: translateY(100px) !important;
+  }
+  .navFirstChild{
+    width: 90% !important;
+  }
+  body{
+    overflow-x: hidden !important;
+  }
+  .aboutSec{
+    width: 100% !important;
+  }
+  .pisca{
+    font-size: 1.6rem !important;
+  }
+  .piscasmall {
+    font-size: 1.6rem !important;
+margin-bottom: 50px;
+  }
+  .twoDivs {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .padd50{
+    padding: 0 !important;
+  }
+  .squar{
+    height: 20vh !important;
+    width: 50vw !important;
+  }
+  .map{
+    width: 80vw !important;
+
+  }
+  .img{
+    overflow: hidden !important;
+  }
+  .max-h{
+    max-height: 80vh !important;
+  }
 }

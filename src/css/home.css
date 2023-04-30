@@ -1,0 +1,86 @@
+.backgroundImg{
+   max-height: 30%;
+    width: 20%;
+    background-image: url('../images/tablealma.jpg');
+
+background-size: cover;
+object-fit: cover;
+animation: slideShow 20s 2s infinite linear;
+}
+.backgroundImg:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.headerDiv{
+    height: 100%;
+    width: 100%;
+    transform:  translateY(-120px);
+}
+.headerBig{
+    /* font-size: 13em; */
+    font-size: 8vw;
+    font-weight: 400;
+    display: inline;
+    
+}
+.smallHeader{
+    font-size: 1.6em;
+    letter-spacing: 8px;
+    font-weight: 400;
+transform: translateY(50px);
+  
+}
+
+.home_btn{
+    width: 200px;
+    border-radius: 25%;
+    
+}
+.btn_div{
+   
+   height: 100%;
+}
+@keyframes slideShow {
+    0%{
+        background-image: url('../images/tablealma.jpg');
+
+    }
+    20%{
+        background-image: url('../images/tablealma.jpg');
+
+    }
+    23%{
+        background-image: url('../images/6.jpg');
+
+    }
+    43%{
+        background-image: url('../images/6.jpg');
+    }
+    46%{
+        background-image: url('../images/8.JPG');
+    }
+    66%{
+        background-image: url('../images/8.JPG');
+    }
+    69%{
+        background-image: url('../images/9.JPG');
+    }
+    89%{
+        background-image: url('../images/9.JPG');
+    }
+    94%{
+        background-image: url('../images/tablealma.jpg');
+    }
+    
+}
+
+
+.fullImage{
+    height: 60vh;
+    width: 100%;
+    background-image: url('../images/11.JPG');
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}

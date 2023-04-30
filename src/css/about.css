@@ -1,0 +1,164 @@
+.imageAbout{
+    /* outline: 1px solid black;
+    outline-offset: 20px; */
+   background-image: url('../images/cheff.jpg');
+   background-size: cover;
+   object-fit: cover;
+   position: relative;
+background-position: bottom;
+  
+height: 50vh;
+width: 35vh;
+}
+.keep{
+    width: 100%;
+}
+.keep:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.ImageSide{
+    position: relative;
+    
+
+}
+.headerAbout{
+    font-size: 3.5em;
+    font-weight: 400;
+}
+
+.marginBottom{
+margin-bottom: 20px;
+}
+/* .imageAbout::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+border-radius: 3px;
+    height: 110%;
+    width: 120%;
+    background-color: #262626;
+    z-index: -1;
+} */
+.h3{
+    transform: translateY(-20px);
+    letter-spacing: 12px;
+    font-weight: 400;
+    color: white;
+
+}
+.beforSquar{
+    background-color: #262626;
+    height: 140%;
+    width: 90%;
+    position: absolute;
+    top: -20%;
+    left: -30%;
+    z-index: -1;
+   
+}
+
+.wordsSide{
+   margin-left: 100px;
+    width: 50%;
+}
+.wordsSide:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.text{
+    font-size: 1.6em;
+    font-weight: 100;
+    display: inline;
+    
+}
+
+
+
+
+/* /////////////////// starting test //////////////// */
+
+.aboutSec{
+ margin-top: 100px;
+  width: 90%;
+margin-bottom: 100px;
+}
+.aboutFirstChild{
+    height: 80%;
+    width:100%;
+}
+.headerAbout{
+   
+}
+.divContainer{
+    height: 80%;
+}
+.pisca{
+    font-size: 1.2vw;
+margin-bottom: 40px;
+}
+.piscasmall{
+    font-size: .9vw;
+    
+}
+.h1{
+   margin-bottom: 50px;
+    font-weight: 450;
+    font-size: 5vw;
+
+}
+.sideTow{
+    margin-right: 50px;
+}
+
+.headerAbout{
+   
+}
+.sideB{
+    background-image: url('../images/me.JPG');
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 30px;
+  height: 100%;
+  width: 75%;
+  /* min-height: 220px; */
+  background-position: center;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+
+}
+.imageSideAbout{
+    width: 50%;
+}
+.sideB::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+
+}
+.cellImage{
+    /* outline: 1px solid black;
+    outline-offset: 25px; */
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+    background-image: url('../images/boss.jpg');
+    background-size: cover;
+    object-fit: cover;
+    max-height: 800px;
+}
+.cellImage::after{
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
+.padding{
+ 
+    padding: 20px;
+}
+.w90{
+    width: 90%;
+}
