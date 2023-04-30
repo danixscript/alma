@@ -24,7 +24,7 @@ function GalerySec(props) {
      
     </div>
     <div className="flexCol  btnDiv center">
-        <NavLink className={'btnGallery'}>עוד תמונות</NavLink>
+        <NavLink to={"/gallery"} className={'btnGallery'}>עוד תמונות</NavLink>
     </div>
  </div>
   );
