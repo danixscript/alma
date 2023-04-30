@@ -6,6 +6,7 @@
 background-size: cover;
 object-fit: cover;
 animation: slideShow 20s 2s infinite linear;
+position: relative;
 }
 .backgroundImg:after {
     content: "";
@@ -15,14 +16,27 @@ animation: slideShow 20s 2s infinite linear;
 .headerDiv{
     height: 100%;
     width: 100%;
-    transform:  translateY(-120px);
+   
+    position: absolute;
+    top: -80px;
+    left: -120px;
+
+}
+.h33{
+    font-size: 1.5em;
+   
+
 }
 .headerBig{
     /* font-size: 13em; */
     font-size: 8vw;
     font-weight: 100;
     display: inline;
-    
+
+    color: #262626;
+    /* -webkit-text-stroke: #262626;
+-webkit-text-stroke-width: 3px; */
+
 }
 .smallHeader{
     font-size: 1.6em;
@@ -88,16 +102,18 @@ transform: translateY(50px);
 
   
   
-    color: #262626;
+    color: #ffff;
     border: 1px solid black;
     padding: 10px 20px 10px 20px;
-    outline: 1px solid black;
-    outline-offset: 5px;
+    outline: 1px solid white;
+    outline-offset: -5px;
+    background-color: black;
   
 }
 .btnGallery2{
     font-size: 1.6rem;
     text-decoration: none;
+    color: #ffff;
 }
 .op{
     opacity: 0;

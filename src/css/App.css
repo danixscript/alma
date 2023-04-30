@@ -98,12 +98,18 @@ box-shadow: 3px 10px 30px white;
 .paddingText{
     padding: 5px;
 }
-
+.w80{
+    width: 80%;
+}
+.gap50{
+    gap: 50px;
+}
 
 .paddingPage{
     width:65vw;
     margin: 0 auto;
 }
+
 .w70{
     width: 70%;
 }
@@ -120,6 +126,10 @@ box-shadow: 3px 10px 30px white;
 }
 .around{
     justify-content: space-around;
+}
+.withd80{
+    width: 80%;
+    transform: translateY(-100px);
 }
 
 .responsive::after{

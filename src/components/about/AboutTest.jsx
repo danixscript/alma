@@ -18,6 +18,7 @@ import ScrollContainerP from "../../components/scrollparalex/ScrollContainerP";
 import ParallaxElement from "../../components/scrollparalex/ParllaxElement";
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
+import IMG from '../../images/cake.jpg'
 
 function AboutTest(props) {
   const AnimationBatchmethod = batch(MoveOut(-200, 0));
@@ -44,7 +45,7 @@ function AboutTest(props) {
         </div>
        </div>
         <div className="  padding w60  h100">
-          <div className="sideTow flexCol  aend">
+          <div className="sideTow flexCol   aend">
             <h3 className="h33">שמש מדקות ושמיים</h3>
             <p className="pisca  rtl">
 
@@ -54,18 +55,22 @@ function AboutTest(props) {
             <div className="btnDiv2  ">
               <NavLink className={'btnGallery2'}>תפריט</NavLink>
             </div>
-            <div className="twoDivs flexRow margin_top50">
-            <div className="sideB  rtl">
+            <br />
+            <div className="twoDivs flexRow  ">
+    
+           <div className="withd80">
+            <br />
+            
+           <h3 className="h33">  Coffee Shop Quotes</h3>
+                <p className="sideA piscasmall ">
+                Quotes are important in marketing and advertising because they provide quick statements that grab the interest of a viewer, making it the gateway they enter into exploring your particular business. Quotes are valuable in the same way a tagline, mission statement, or overall business message can be.
+                </p>
+
+           </div>
+           <div className="sideB  rtl">
+              {/* <img src={IMG1} alt="" /> */}
 
 </div>
-           <div className="rtl">
-            
-           <h3 className="h33">שמש מדקות ושמיים</h3>
-                <p className="sideA piscasmall ">
-                בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..
-
-                </p>
-           </div>
              
             </div>
             </div>

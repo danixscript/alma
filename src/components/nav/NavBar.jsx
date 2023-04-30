@@ -4,20 +4,30 @@ import { motion } from "framer-motion";
 
 // import { useDispatch, useSelector } from "react-redux";
 import Links from "./Links";
+import { useState } from "react";
 
 function NavBar(props) {
   // const dispatch = useDispatch();
   // const color = useSelector((state) => state.color);
-
+  const [activeNavBar,setActiveNav ] = useState(false)
+  const changeBackground = ()=>{
+      if(window.scrollY >= 80){
+        setActiveNav(true)
+      }
+      else{
+        setActiveNav(false)
+      }
+   }
+   window.addEventListener('scroll', changeBackground)
   return (
     <motion.div
-    className="NavBar flexCol   center"
+    className={activeNavBar?"activeNav flexCol   center":'NavBar flexCol   center'}
     transition={{duration:.30,delay:3,ease:'easeInOut'}}
     initial={{transform:'translateY(-100px)' }}
     animate={{ transform:'translateY(0)' }}
     exit={{ opacity:0,transitionDelay:'5s' }}
   >
-    <div className="NavBar flexCol   center">
+    <div  className={activeNavBar?"activeNav flexCol   center":'NavBar flexCol   center'}>
       <div className="navFirstChild w100 flexRow bet  alignCenter ">
         <div className="logo">ALMA</div>
         <div className="links">

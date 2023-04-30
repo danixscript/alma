@@ -27,17 +27,19 @@ import Diractions from "../components/diraction/Diractions";
 import Footer from "../components/footer/Footer";
 import GalerySec from "../components/gallerysec/GalerySec";
 
-
-
 function HomePage() {
   const AnimationBatchmethod = batch(Sticky());
-  const AnimationBatchPage2 = batch( Sticky(), ZoomOut(), Fade(),MoveOut(0,-600));
-  const AnimationBatchPage3 = batch( StickyIn(), Fade());
+  const AnimationBatchPage2 = batch(
+    Sticky(),
+    ZoomOut(),
+    Fade(),
+    MoveOut(0, -600)
+  );
+  const AnimationBatchPage3 = batch(StickyIn(), Fade());
   const FadeUp = batch(Fade(), Sticky(), Move());
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
   const box1 = useRef(null);
-
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -45,59 +47,45 @@ function HomePage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  return (
+    // <AnimatedPage>
 
-  return ( 
-
-  // <AnimatedPage>
-  
-<PageTrans>
-
-      <ScrollContainer >
-   
-        <ScrollPage className="max-h" ref={box1}  page={0}>
-      <OneningImage offsetY={offsetY}/>
+    <PageTrans>
+      <ScrollContainer>
+        <ScrollPage className="max-h" ref={box1} page={0}>
+          <OneningImage offsetY={offsetY} />
         </ScrollPage>
-<div className="paddingPage ">
-  
-{/* <ScrollPage ref={box1}  page={1}> */}
-  <AboutTest  offsetY={offsetY}/>
-      {/* <About offsetY={offsetY}/> */}
-        {/* </ScrollPage> */}
-        
-</div>
-
-     <div className="paddingPage flexCol center"> 
-<GalerySec/>
-
-      {/* <SquarsSection offsetY={offsetY}/>
-      */}
-        
-       
-          <Diractions/>
+        <div className="paddingPage ">
+          {/* <ScrollPage ref={box1}  page={1}> */}
+          <AboutTest offsetY={offsetY} />
+          {/* <About offsetY={offsetY}/> */}
+          {/* </ScrollPage> */}
         </div>
+
+        <div className="bacimggalllert">
+          <div className="paddingPage flexCol center">
+            <GalerySec />
+
+            {/* <SquarsSection offsetY={offsetY}/>
+             */}
+</div> </div>
+<div className="paddingPage flexCol center">
+            <Diractions />
+          </div>
+       
 
         {/* <ScrollPage   page={3}>
         <Animator className="w100" animation={AnimationBatchPage2}>
           
         </Animator>
         </ScrollPage> */}
-      
-        
-       
-        
-    
-   <Footer/>
-     
-       
+
+        <Footer />
       </ScrollContainer>
-    
-      </PageTrans>
-     
+    </PageTrans>
 
     // </AnimatedPage>
-   
   );
-
 }
 
 export default HomePage;

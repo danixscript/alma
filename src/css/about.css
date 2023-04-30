@@ -84,6 +84,7 @@ border-radius: 3px;
 .aboutSec{
  margin-top: 100px;
   width: 100%;
+  margin-bottom: 250px;
 
 }
 .aboutFirstChild{
@@ -98,17 +99,20 @@ border-radius: 3px;
 }
 .pisca{
     font-size: 1.2vw;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 .piscasmall{
     font-size: .9vw;
     
 }
 .h1{
-   margin-bottom: 50px;
+  
     font-weight: 150;
     font-size: 5vw;
 
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: #231c32;
+-webkit-text-stroke-width: 1px;
 }
 .sideTow{
     margin-right: 50px;

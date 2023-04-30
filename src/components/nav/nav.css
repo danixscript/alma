@@ -1,11 +1,20 @@
 .NavBar{
+   
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    transition: .4s ease-in-out;
+}
+.activeNav{
+    transition: .4s ease-in-out;
     background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999999;
-   
 }
 
 .navFirstChild{
@@ -15,7 +24,7 @@
 }
 .Link{
     margin-left: 50px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-decoration: none;
     color: black;
     font-weight: 500;

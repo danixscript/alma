@@ -1,9 +1,14 @@
 .gridGallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
- 
+
     gap: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+.bacimggalllert{
+    background-image: url('../images/arak.JPG');
+    background-size: cover;
+    object-fit: cover;
 }
 .btnDiv{
     min-height: 20vh;
@@ -13,8 +18,30 @@
     
     text-decoration: none;
     color: #262626;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px 20px 10px 20px;
-    outline: 1px solid black;
+    outline: 1px solid white;
     outline-offset: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+
+.imageGalertPage{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+    background-image: url('../images/new/out3.jpg');
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.gridGallery2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }

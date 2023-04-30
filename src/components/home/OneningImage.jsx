@@ -35,8 +35,8 @@ transition={{duration:.75,delay:3,ease:'easeInOut'}}
 initial={{opacity:0 }}
 animate={{ opacity:1 }}
 exit={{ opacity:0 }}>
-<div className="headerDiv flexCol  aend">
-<h1 className="headerBig"  style={{ transform: `translateY( ${ props.offsetY * 0.2   }px)`}}  >קפה עלמה </h1>
+<div className="headerDiv flexCol  ">
+<h1 className="headerBig"  style={{ transform: `translateY( ${ props.offsetY * 0.2   }px)`}}  > CAFFE ALMA </h1>
 
 
 

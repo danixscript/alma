@@ -10,7 +10,7 @@ function Footer(props) {
 
 
 <div className="flexCol center">
-  <h1 className="headerFooter"> עלמה יפו </h1>
+  <h1 className="headerFooter">   </h1>
   </div>
   <div className="social flexRow">
 <div className="btns">
