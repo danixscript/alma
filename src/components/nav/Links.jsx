@@ -4,7 +4,7 @@ import "./nav.css";
 
 function Links(props) {
   return (
-    <div className="Link_UL  flexRow"> 
+    <div className="Link_UL  flexRow center"> 
     
      
     
@@ -14,10 +14,10 @@ function Links(props) {
       </NavLink> 
       
  
-      <NavLink className={"Link"} to={"/gallery"}>
+      <NavLink className={"Link "} to={"/gallery"}>
         גלריה
       </NavLink>
-      <div className="flexRow ">
+      <div className="flexRow center  h100">
      <NavLink className={"Link"} to={"/contact"}>
         תפריט
       </NavLink> <h2>/</h2>

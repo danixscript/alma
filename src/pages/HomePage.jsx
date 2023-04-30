@@ -69,6 +69,7 @@ function HomePage() {
             {/* <SquarsSection offsetY={offsetY}/>
              */}
 </div> </div>
+<br /><br /><br /><br />
 <div className="paddingPage flexCol center">
             <Diractions />
           </div>

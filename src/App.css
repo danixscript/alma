@@ -7,3 +7,18 @@ body{
     background-size: cover;
     object-fit: cover;
 }
+.zin9{
+    z-index: 9999999;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    outline: 1px solid black;
+    outline-offset: 5px;
+    
+}
+.gap20{
+    gap: 20px;
+}

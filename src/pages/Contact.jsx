@@ -1,4 +1,5 @@
 import "../css/home.css";
+import '../css/contact.css'
 import { motion } from "framer-motion";
 import {
   Animator,
@@ -17,7 +18,8 @@ import {
 import { useState, useEffect } from "react";
 import React, { useRef } from "react";
 import PageTrans from "../components/transition/PageTrans";
-
+import Img from '../images/new/out3.jpg'
+import SocialBtn from "../components/btn/SocialBtn";
 function HomePage() {
   const AnimationBatchmethod = batch(Sticky());
   const AnimationBatchPage2 = batch(
@@ -46,37 +48,38 @@ function HomePage() {
 
     <PageTrans>
       <ScrollContainer>
-        <ScrollPage ref={box1} page={3}>
-          <Animator
-            className="w100"
-            animation={AnimationBatchmethod}
-          ></Animator>
-        </ScrollPage>
-
-        <ScrollPage page={3}>
-          <Animator className="w100" animation={AnimationBatchPage2}></Animator>
-        </ScrollPage>
-
-        <ScrollPage page={4}>
-          <Animator className="w100" animation={AnimationBatchPage3}></Animator>
-        </ScrollPage>
-
-        <ScrollPage className="index " page={5}></ScrollPage>
-
-        <ScrollPage page={2}>
-          <div className="h100vh w100  flexCenter">
-            <motion.div
-              className="  "
-              initial={{ transform: "translateX(0)" }}
-              animate={{ opacity: 1, width: "100%" }}
-              exit={{ opacity: 0, transform: "translateX(1000px" }}
-            >
-              <h1>hay</h1>
-            </motion.div>
-            {/* </Animator> */}
+        <div className="h100vh w100 flexCol center">
+         <div className="w90 h100 posrel flexRow center">
+         {/* <div className="imageLeft cw">
+            <img src={Img} className="img cw" alt="" />
+          </div> */}
+          <div className="info h100  flexCol center">
+        
+         <div className="info   flexCol center">
+         <h1 className="headerBig2">
+        
+        <span className="cw cbi">AL</span>MA YAFFO
+      </h1>   
+      <div className="imageLeft ">
+      {/* <img src={Img} className="img " alt="" /> */}
+    </div>
+         </div>
+            <div className="flexCol  gap20 rtl w100">
+            <div className="flexCol  zin9 rtl w100">
+            <p className="text">ראשון עד חמישי 7:00--22:00</p>
+            <p className="text">שישי מ 7:00 -- 18:00</p>
+            <p className="text"> שבת מ 8:00 -- 22:00</p>
+            <p className="text">03-513538</p>
+            
+          </div><SocialBtn/>
+            </div>
+        
+          {/* <div className="imagebg w50"></div> */}
           </div>
-        </ScrollPage>
-        <ScrollPage page={3}></ScrollPage>
+         </div>
+        </div>
+
+     
       </ScrollContainer>
     </PageTrans>
 

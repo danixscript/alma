@@ -26,8 +26,27 @@ html{
 -webkit-text-stroke-width: 0px !important;
 
 }
+.cbi{
+  color: #262626 !important;
+}
+.imageLeft{
+  width:  40vh;
+position: static;
+
+ height: 20% !important;
+top: 10% !important;
+ left: 20% !important;
+
+  
+}
+.imageLeft{
+  width: 60vw !important;
+}
 .imageGalertPage{
   width: 70% !important;
+}
+.withd80{
+  transform: translateX(0) !important;
 }
 .gridGallery2{
   grid-template-columns:  1fr 1fr !important;

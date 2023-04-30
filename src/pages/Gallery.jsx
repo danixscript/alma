@@ -125,7 +125,7 @@ function Gallery() {
        
  
         
-        <div ref={box1} className="flexCol center">
+        <div ref={box1} className="flexCol center ">
           <div className="gridGallery2 w90  flexCenter">
             {array.map((e) => {
               return (
