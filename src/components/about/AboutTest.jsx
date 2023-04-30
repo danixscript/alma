@@ -53,9 +53,9 @@ function AboutTest(props) {
             בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..    בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..
             </p>
             <div className="btnDiv2  ">
-              <NavLink className={'contact'}>תפריט</NavLink>
+              <NavLink to={'contact'} className={'btnGallery2'}>תפריט</NavLink>
             </div>
-            <br />
+            <br /> 
             <div className="twoDivs flexRow  ">
     
            <div className="withd80">

@@ -7,7 +7,7 @@
 
 }
 
-@keyframes slideShow {
+@keyframes slideShow2 {
     0%{
         background-image: url('../images/1.jpg');
 
@@ -72,7 +72,7 @@ z-index: -100;
    left: -60px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    animation: slideShow 20s infinite linear;
+    animation: slideShow2 20s infinite linear;
     background-size: cover;
     object-fit: cover;
     background-position: center;

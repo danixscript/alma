@@ -98,7 +98,7 @@ function Gallery() {
         <ScrollPage  page={0}>
           <Animator
             className="w100 h100vh flexCol center"
-            animation={AnimationBatchmethod}
+            animation={AnimationBatchPage2}
           >
         
                 <div  className="imageGalertPage ">
@@ -110,14 +110,14 @@ function Gallery() {
           </Animator>
         </ScrollPage>
        
-        <ScrollPage ref={box1} page={1}>
+        {/* <ScrollPage ref={box1} page={1}>
           <Animator
             className="w100 h100vh flexCol center"
-            animation={AnimationBatchPage2}
+            animation={}
           >
             <div className="imageGalertPage"></div>
           </Animator>
-        </ScrollPage>
+        </ScrollPage> */}
 
 
         <ScrollPage className="index " page={2}></ScrollPage>
