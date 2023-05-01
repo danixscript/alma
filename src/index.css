@@ -146,4 +146,9 @@ margin-bottom: 50px;
     grid-template-columns: 1fr 1fr !important;
     gap: 10px !important;
   }
+  .phone{
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
 }

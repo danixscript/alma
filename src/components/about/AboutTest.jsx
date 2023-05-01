@@ -13,14 +13,19 @@ import {
   ZoomIn,
   ZoomOut,
 } from "react-scroll-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../../css/about.css";
 import ScrollContainerP from "../../components/scrollparalex/ScrollContainerP";
 import ParallaxElement from "../../components/scrollparalex/ParllaxElement";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import IMG from '../../images/cake.jpg'
 
 function AboutTest(props) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const AnimationBatchmethod = batch(MoveOut(-200, 0));
   const moveSlowly = batch(MoveOut(200, 0));
   const FadeUp = batch(Sticky());
@@ -32,7 +37,8 @@ function AboutTest(props) {
     <div className="aboutSec flexCol center ">
      <div className="aboutFirstChild ">
      <div className="headerAbout ">
-            <h1 className="h1  rtl">קצת על קפה עלמה</h1>
+            <h1   data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" className="h1  rtl">קצת על קפה עלמה</h1>
       </div>
       <div className="divContainer flexRow ">
        <div className="imageSideAbout  h100 " >
@@ -44,7 +50,8 @@ function AboutTest(props) {
         <p className="text">זיו ויזמן בעל העסק</p>
         </div>
        </div>
-        <div className="  padding w60  h100">
+        <div   data-aos="fade-up"
+            className="  padding w60  h100">
           <div className="sideTow flexCol   aend">
             <h3 className="h33">שמש מדקות ושמיים</h3>
             <p className="pisca  rtl">
@@ -53,7 +60,7 @@ function AboutTest(props) {
             בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..    בעינינו, בילוי יומיומי צריך להיות דבר שגרתי שמושרש בתרבות שלנו. וזה לגמרי אפשרי..
             </p>
             <div className="btnDiv2  ">
-              <NavLink to={'contact'} className={'btnGallery2'}>תפריט</NavLink>
+              <NavLink data-aos="fade-up" to={'contact'} className={'btnGallery2'}>תפריט</NavLink>
             </div>
             <br /> 
             <div className="twoDivs flexRow  ">

@@ -153,11 +153,46 @@ margin-bottom: 20px;
     background-size: cover;
     object-fit: cover;
     max-height: 800px;
+    animation: slideBoss 20s infinite linear;
 }
 .cellImage::after{
     content: '';
     padding-bottom: 100%;
     display: block;
+}
+
+@keyframes slideBoss {
+    0%{
+        background-image: url('../images/boss.jpg');
+    }
+    50%{
+        background-image: url('../images/boss.jpg');
+      opacity: 1;
+    }
+    51%{
+        opacity: 0;
+    }
+    53%{
+               background-image: url('../images/new/boss2.jpg');
+               object-fit: contain;
+ 
+    }
+    54%{
+        opacity: 1;
+        background-image: url('../images/new/boss2.jpg');
+
+    }
+   
+    90%{
+        background-image: url('../images/new/boss2.jpg');
+      
+    }
+    92%{
+        
+        background-image: url('../images/boss.jpg');
+    }
+   
+    
 }
 .padding{
  

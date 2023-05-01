@@ -15,10 +15,23 @@ body{
     width: 40px;
     border-radius: 50%;
     border: 1px solid black;
-    outline: 1px solid black;
-    outline-offset: 5px;
+    background-color: white;
+   
     
+}
+.jcenter{
+    justify-content: center;
+}
+.marginRight20{
+    margin-right: 20px;
 }
 .gap20{
     gap: 20px;
+}
+.padding10{
+    padding: 10px;
+}
+.margin_bottomm50
+{
+    margin-bottom: 50px;
 }

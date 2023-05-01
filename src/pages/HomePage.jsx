@@ -26,6 +26,7 @@ import AboutTest from "../components/about/AboutTest";
 import Diractions from "../components/diraction/Diractions";
 import Footer from "../components/footer/Footer";
 import GalerySec from "../components/gallerysec/GalerySec";
+import { NavLink } from "react-router-dom";
 
 function HomePage() {
   const AnimationBatchmethod = batch(Sticky());
@@ -72,6 +73,17 @@ function HomePage() {
 <br /><br /><br /><br />
 <div className="paddingPage flexCol center">
             <Diractions />
+            <div className="flexCol center margin_bottomm50">
+            <p className="text">ראשון עד חמישי 7:00--22:00</p>
+            <p className="text">שישי מ 7:00 -- 18:00</p>
+            <p className="text"> שבת מ 8:00 -- 22:00</p>
+            <p className="text">03-513538</p>
+            <br />
+            <div className="btnDiv2  ">
+              <NavLink data-aos="fade-up" to={'contact'} className={'btnGallery2'}>צור קשר</NavLink>
+            </div>
+            </div>
+            
           </div>
        
 

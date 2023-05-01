@@ -16,6 +16,9 @@
     left: 0;
     z-index: 999999;
 }
+.minwidth{
+    min-width: 500px;
+}
 
 .navFirstChild{
     width: 70%;
@@ -37,6 +40,7 @@
     color: black;
     font-weight: 500;
     position: relative;
+ 
 }
 
 
@@ -45,4 +49,75 @@
     height: 3vh;
     background-color: #262626;
 
+}
+
+.phone{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.openNav{
+    height: 100vh;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #262626;
+    transition: all .4s ease-in-out;
+}
+.closeNav{
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #262626;
+    opacity: 0;
+transition: all .4s ease-in-out   ;
+    visibility: hidden;
+    
+}
+.Linkphone{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+
+
+}
+.closeNavPhoneBTNDiv{
+    position: absolute;
+    top: 40px;
+    left: -10px;
+   
+
+}
+.navCloseButton{
+    font-size: 1.4rem;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #929292;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.phonHeader{
+    letter-spacing: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+
+.navMenubtn {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.paddingBtnNavPhone{
+    padding: 0 10px 0 10px;
 }

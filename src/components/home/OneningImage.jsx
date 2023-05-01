@@ -24,7 +24,7 @@ function OneningImage (props){
         
         transition={{duration:.75,delay:2,ease:'easeInOut'}}
         initial={{ }}
-        animate={{ width:'65vw',maxHeight:'70% ',marginTop:'10vh' }}
+        animate={{ width:'65vw',maxHeight:'70% ',marginTop:'9vh' }}
         exit={{ opacity:0 }}
        
       >
@@ -63,45 +63,7 @@ exit={{ opacity:0 }}>
         <NavLink className={'btnGallery2'}> תפריט</NavLink>
     </div>
 </motion.div>
-{/*             
-            <ScrollContainerP className="h100vh w100 flexbottom bgimage">
-             <ParallaxElement className='flexCenter h100 w100' dataPercent="20" dataDirection="y">
-      <div ref={box2}>
 
-      
-   <motion.div
-        className=" flexCenter "
-        initial={{ opacity: 0 ,height:'100%',transform:'translateY(-100px)'}}
-        animate={{ opacity: 1 }}
-        exit={{ opacity:0,transitionDelay:'5s' }}
-      >
-       
-       <div className="header_div "  >
-      
-     
-<div  style={{ transform: `transformX( -${ props.offsetY * 0.003   }px)`}}     className="w100 slider_div flexRow ">
-
-  <h1 className="header ">Daniel Morcos  --</h1><h1 className="header ">Daniel Morcos -- </h1><h1 className="header ">Daniel Morcos  --</h1>
-
-
-
-
-</div>
-
-     
-
-       <p  className="headerSmall">Freelance designer</p>
-     
-
-       </div>
-      
-       </motion.div>
-     </div>
-  
-
-     </ParallaxElement>
-
-</ScrollContainerP> */}
       </div>
  
 

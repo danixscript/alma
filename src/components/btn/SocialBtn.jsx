@@ -5,16 +5,23 @@ import "../../css/diractions.css";
 function SocialBtn(props) {
   return (
     <div className=" flexRow  gap50 "> 
-    <div className="circle">
-
+    <div className="circle flexCol center">
+    <div className="fa fa-google">
+    
     </div>
-<div className="circle">
+    </div>
+<div className="circle flexCol center ">
+  <div className="fa fa-facebook">
+
+  </div>
         
     </div>
   
      
-    <div className="circle">
-        
+    <div className="circle flexCol center">
+        <div className="fa fa-instagram">
+    
+  </div>
         </div>
     
      

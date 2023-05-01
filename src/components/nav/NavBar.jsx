@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 // import { useDispatch, useSelector } from "react-redux";
 import Links from "./Links";
 import { useState } from "react";
+import NavPhon from "./NavPhon";
 
 function NavBar(props) {
   // const dispatch = useDispatch();
@@ -28,11 +29,17 @@ function NavBar(props) {
     exit={{ opacity:0,transitionDelay:'5s' }}
   >
     <div  className={activeNavBar?"activeNav flexCol   center":'NavBar flexCol   center'}>
-      <div className="navFirstChild w100 flexRow bet  alignCenter ">
+      <div className="navFirstChild w90 flexRow bet  alignCenter ">
         <div className="logo">ALMA</div>
         <div className="links">
           <Links />
+
+         
+
         </div>
+      <div className="phone">
+      <NavPhon/>
+      </div>
       </div>
     </div>
     </motion.div>

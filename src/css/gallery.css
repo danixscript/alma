@@ -5,6 +5,9 @@
     gap: 50px;
     margin-top: 200px;
 }
+.scroll-snap{
+    scroll-snap-type: y mandatory;
+}
 .bacimggalllert{
     background-image: url('../images/arak.JPG');
     background-size: cover;
@@ -45,4 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+}
+.scroll-snap-align{
+    scroll-snap-align: center;
 }

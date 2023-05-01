@@ -5,8 +5,10 @@
 }
 .headerFooter{
     font-size: 3rem;
+    font-weight: 100;
     color: white;
 }
+
 .btns{
     height: 50px;
     width: 50px;

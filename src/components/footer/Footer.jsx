@@ -1,5 +1,7 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../css/footer.css";
+import SocialBtn from "../btn/SocialBtn";
+import Links from "../nav/Links";
 // import { BubblyContainer, BubblyLink } from "react-bubbly-transitions";
 
 function Footer(props) {
@@ -9,26 +11,21 @@ function Footer(props) {
 
 
 
-<div className="flexCol center">
-  <h1 className="headerFooter">   </h1>
+<div className="flexRow center">
+  <div className="links">
+   
   </div>
-  <div className="social flexRow">
-<div className="btns">
-
-</div>
-<div className="btns">
-    
-</div>
-<div className="btns">
-    
-</div>
-<div className="btns">
-    
+ 
+  
+  <div className="social  padding10 flexCol center">
+     <h1 className="headerFooter "> ALMA YAFFO  </h1>
+<div className=" padding10">
+<SocialBtn/>
 </div>
 </div>
 
 </div>
-     
+   </div>  
     </div>
   );
 }
