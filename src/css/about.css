@@ -154,6 +154,7 @@ margin-bottom: 20px;
     object-fit: cover;
     max-height: 800px;
     animation: slideBoss 20s infinite linear;
+   
 }
 .cellImage::after{
     content: '';
@@ -174,12 +175,14 @@ margin-bottom: 20px;
     }
     53%{
                background-image: url('../images/new/boss2.jpg');
-               object-fit: contain;
+               background-position: center;
+               
  
     }
     54%{
         opacity: 1;
         background-image: url('../images/new/boss2.jpg');
+        background-position: center;
 
     }
    

@@ -37,7 +37,7 @@ function NavBar(props) {
          
 
         </div>
-      <div className="phone">
+      <div className="phone ">
       <NavPhon/>
       </div>
       </div>

@@ -65,6 +65,10 @@
     right: 0;
     background-color: #262626;
     transition: all .4s ease-in-out;
+
+}
+.zin90{
+
 }
 .closeNav{
     height: 100vh;

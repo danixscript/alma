@@ -47,7 +47,7 @@ function AboutTest(props) {
         <div className="cellImage  responsive">
 
         </div>
-        <p className="text">זיו ויזמן בעל העסק</p>
+        <p className="text">   נשמח לארח אותכם</p>
         </div>
        </div>
         <div   data-aos="fade-up"

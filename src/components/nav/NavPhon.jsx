@@ -11,7 +11,7 @@ function NavPhon(props) {
       setActiveNav(!activeNav)
     }
   return (
-    <div className="Link_UL phone  flexCol "> 
+    <div className="Link_UL phone  flexCol zinplus"> 
     
      
     <div className="btnn">
@@ -22,25 +22,25 @@ function NavPhon(props) {
         </button>
     </div>
      
-     <div className={activeNav?"flexCol jcenter  openNav rtl":'closeNav jcenter flexCol rtl'}>
+     <div className={activeNav?"flexCol jcenter   openNav rtl":'closeNav jcenter flexCol rtl'}>
      <div className="closeNavPhoneBTNDiv">
      <button className="navCloseButton" onClick={openNav} >X</button>
      </div>  
      <h1 className="cw phonHeader ">ALMA</h1> 
      <div className="marginRight20 minwidth flexCol">
-         <NavLink className={"Linkphone"} to={"/home"}>
+         <NavLink onClick={openNav} className={"Linkphone"} to={"/home"}>
         דף הבית
       </NavLink>
-     <NavLink className={"Linkphone"} to={"/contact"}>
+     <NavLink onClick={openNav} className={"Linkphone"} to={"/contact"}>
         תפריט
       </NavLink>
-      <NavLink className={"Linkphone"} to={"/contact"}>
+      <NavLink onClick={openNav} className={"Linkphone"} to={"/contact"}>
         menu
       </NavLink>   
-        <NavLink className={"Linkphone "} to={"/gallery"}>
+        <NavLink onClick={openNav}  className={"Linkphone "} to={"/gallery"}>
         גלריה
       </NavLink>
-     <NavLink className={"Linkphone"} to={"/contact"}>
+     <NavLink onClick={openNav} className={"Linkphone"} to={"/contact"}>
         צור קשר
       </NavLink> 
       </div>

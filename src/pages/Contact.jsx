@@ -48,7 +48,7 @@ function HomePage() {
 
     <PageTrans>
       <ScrollContainer>
-        <div className="h100vh w100 flexCol center">
+        <div className="h100vh w100 flexCol center margintoponPhone ">
          <div className="w90 h100 posrel flexRow center">
          {/* <div className="imageLeft cw">
             <img src={Img} className="img cw" alt="" />
@@ -65,8 +65,8 @@ function HomePage() {
       {/* <img src={Img} className="img " alt="" /> */}
     </div>
          </div>
-            <div className="flexCol  gap20 rtl w100">
-            <div className="flexCol  zin9 rtl w100">
+            <div className="flexCol   gap20 rtl w100">
+            <div className="flexCol   rtl w100">
             <p className="text">ראשון עד חמישי 7:00--22:00</p>
             <p className="text">שישי מ 7:00 -- 18:00</p>
             <p className="text"> שבת מ 8:00 -- 22:00</p>
