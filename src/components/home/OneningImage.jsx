@@ -20,7 +20,7 @@ function OneningImage (props){
      <div  className="h100vh w100  flexCol centerforEnd "    >
  
 <motion.div
-        className=" backgroundImg flexCol "
+        className=" backgroundImg flexCol maxhleptop"
         
         transition={{duration:.75,delay:2,ease:'easeInOut'}}
         initial={{ }}

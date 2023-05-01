@@ -20,7 +20,14 @@ width: 85vw !important;
 
   }
 
+  
 
+  @media only screen and (max-height: 853px) {
+.maxhleptop{
+  max-height: 50% !important;
+}
+
+  }
 @media only screen and (max-width: 800px) {
   .paddingPage {
     width: 90% !important;
@@ -49,6 +56,9 @@ top: 14% !important;
  left: 20% !important;
 
   
+}
+.headerBig2{
+  color: #262626 !important;
 }
 .imageLeft{
   width: 60vw !important;

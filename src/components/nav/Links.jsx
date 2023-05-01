@@ -18,7 +18,7 @@ function Links(props) {
         גלריה
       </NavLink>
       <div className="flexRow center  h100">
-     <NavLink className={"Link"} to={"/contact"}>
+     <NavLink className={"Link"} to={"/"}>
         תפריט
       </NavLink> <h2>/</h2>
       <NavLink className={"Link2"} to={"/contact"}>
