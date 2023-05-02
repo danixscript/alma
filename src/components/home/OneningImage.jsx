@@ -58,7 +58,7 @@ initial={{opacity:0 }}
 animate={{ opacity:1  }}
 exit={{ opacity:0 }}>
       <p className="smallHeader">יפו שבטי ישראל 14 </p>
-      <br /><br /><br /> 
+     
       <div className="flexCol  op btnDiv2 center po">
         <NavLink className={'btnGallery2'}> תפריט</NavLink>
     </div>

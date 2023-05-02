@@ -13,6 +13,14 @@ code {
 html{
   font-size: 18px;
 }
+
+/* @media only screen and (min-height: 653px) {
+  .maxhleptop{
+    max-height: 30% !important;
+    margin-top: 3vh !important;
+  }} */
+
+
 @media only screen and (max-width: 1050px) {
   .paddingPage{
 width: 85vw !important;
@@ -20,16 +28,21 @@ width: 85vw !important;
 
   }
 
-  
 
   @media only screen and (max-height: 853px) {
 .maxhleptop{
-  max-height: 70% !important;
-  margin-top: 25vh !important;
+  max-height: 50% !important;
+  margin-top: 15vh !important;
+}
+.smallHeader {
+  transform: translateY(0) !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
   }
+
 @media only screen and (max-width: 800px) {
   .paddingPage {
     width: 90% !important;
@@ -126,10 +139,10 @@ top: 14% !important;
     width: 100% !important;
   }
   .pisca{
-    font-size: 1.6rem !important;
+    font-size: 1.3rem !important;
   }
   .piscasmall {
-    font-size: 1.6rem !important;
+    font-size: 1.3rem !important;
 margin-bottom: 50px;
   }
   .twoDivs {
