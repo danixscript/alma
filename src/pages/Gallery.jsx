@@ -101,7 +101,7 @@ function Gallery() {
           
               return (
                 <div className="imgdiv">
-                  <img src={e} className="img" alt="" />
+                  <img src={e} loading="lazy" className="img" alt="" />
                 </div>
               );
             })}
@@ -110,7 +110,7 @@ function Gallery() {
           
           return (
             <div className="imgdiv">
-              <img src={e} className="img" alt="" />
+              <img src={e} loading="lazy" className="img" alt="" />
             </div>
           );
         })}

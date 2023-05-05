@@ -5,6 +5,7 @@ import ScrollContainerP from "../../components/scrollparalex/ScrollContainerP";
 import ParallaxElement from "../../components/scrollparalex/ParllaxElement";
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
+import pdfh from '../../images/menuheb.pdf'
 
 function OneningImage (props){
     const AnimationBatchmethod = batch(MoveOut(-200,0));
@@ -20,14 +21,15 @@ function OneningImage (props){
      <div  className="h100vh w100  flexCol centerforEnd "    >
  
 <motion.div
-        className=" backgroundImg flexCol maxhleptop"
-        
+        className=" backgroundImg bgtest flexCol maxhleptop"
+       
         transition={{duration:.75,delay:2,ease:'easeInOut'}}
         initial={{ }}
         animate={{ width:'65vw',maxHeight:'70% ',marginTop:'9vh' }}
         exit={{ opacity:0 }}
        
       >
+         
 
 <motion.div 
 
@@ -60,7 +62,7 @@ exit={{ opacity:0 }}>
       <p className="smallHeader">יפו שבטי ישראל 14 </p>
      
       <div className="flexCol  op btnDiv2 center po">
-        <NavLink className={'btnGallery2'}> תפריט</NavLink>
+        <a href={pdfh} className={'btnGallery2'}> תפריט</a>
     </div>
 </motion.div>
 

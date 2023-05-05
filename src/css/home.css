@@ -27,6 +27,9 @@ position: relative;
    
 
 }
+.bgtest{
+    background-color: bisque;
+}
 .headerBig{
     /* font-size: 13em; */
     font-size: 8vw;

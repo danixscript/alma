@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "./nav.css";
 // import { BubblyContainer, BubblyLink } from "react-bubbly-transitions";
+import PDF from '../../images/menue.pdf'
+import pdfh from '../../images/menuheb.pdf'
 
 function Links(props) {
   return (
@@ -18,12 +20,12 @@ function Links(props) {
         גלריה
       </NavLink>
       <div className="flexRow center  h100">
-     <NavLink className={"Link"} to={"/"}>
+     <a className={"Link"} href={pdfh}>
         תפריט
-      </NavLink> <h2>/</h2>
-      <NavLink className={"Link2"} to={"/contact"}>
+      </a> <h2>/</h2>
+      <a className={"Link2"} href={PDF} target = "_blank">
         menu
-      </NavLink> 
+      </a> 
      </div>
       <NavLink className={"Link"} to={"/home"}>
         דף הבית
