@@ -3,7 +3,8 @@ import "./nav.css";
 import { useState } from "react";
 import SocialBtn from "../btn/SocialBtn";
 // import { BubblyContainer, BubblyLink } from "react-bubbly-transitions";
-
+import PDF from '../../images/menue.pdf'
+import pdfh from '../../images/menuheb.pdf'
 function NavPhon(props) {
     const [activeNav,setActiveNav] = useState(false)
 
@@ -31,12 +32,12 @@ function NavPhon(props) {
          <NavLink onClick={openNav} className={"Linkphone"} to={"/home"}>
         דף הבית
       </NavLink>
-     <NavLink onClick={openNav} className={"Linkphone"} to={"/contact"}>
+     <a onClick={openNav} className={"Linkphone"} href={PDF}>
         תפריט
-      </NavLink>
-      <NavLink onClick={openNav} className={"Linkphone"} to={"/contact"}>
+      </a>
+      <a onClick={openNav} className={"Linkphone"} href={pdfh}>
         menu
-      </NavLink>   
+      </a>   
         <NavLink onClick={openNav}  className={"Linkphone "} to={"/gallery"}>
         גלריה
       </NavLink>
