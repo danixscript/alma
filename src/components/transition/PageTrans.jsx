@@ -29,22 +29,22 @@ function PageTrans({children,location}) {
 
     }
     const [startLoading,setLoadingState] = useState(true)
-    useEffect(()=>{
-        if(startLoading){
-console.log('true')
-            const timer = window.setTimeout(() => {
-                setLoadingState(false)
-                redirect('/'+location)
-                console.log('false')
+//     useEffect(()=>{
+//         if(startLoading){
+// console.log('true')
+//             const timer = window.setTimeout(() => {
+//                 setLoadingState(false)
+//                 redirect('/'+location)
+//                 console.log('false')
 
-              }, 3500);
+//               }, 3500);
             
-              return () => { 
-                window.clearTimeout(timer);
-              }
-        }
+//               return () => { 
+//                 window.clearTimeout(timer);
+//               }
+//         }
 
-    },[])
+//     },[])
  
   return (
 
