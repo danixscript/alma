@@ -104,9 +104,12 @@ top: 14% !important;
     display: none;
     visibility: hidden;
   }
+  .map2{
+    width: 100% !important;
+  }
   .centerforEnd{
     justify-content: flex-start !important;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .divContainer {
     flex-direction: column !important;
@@ -165,7 +168,7 @@ margin-bottom: 50px;
     overflow: hidden !important;
   }
   .max-h{
-    max-height: 80vh !important;
+    max-height: 90vh !important;
   }
   .btnDiv{
     margin-bottom: 100px !important;

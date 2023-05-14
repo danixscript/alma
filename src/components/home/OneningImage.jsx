@@ -29,6 +29,7 @@ function OneningImage (props){
         exit={{ opacity:0 }}
        
       >
+            
          
 
 <motion.div 
