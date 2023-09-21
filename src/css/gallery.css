@@ -11,7 +11,7 @@
 .bacimggalllert{
     background-image: url('../images/arak.JPG');
     background-size: cover;
-    object-fit: cover;
+    object-fit: contain;
 }
 .btnDiv{
     min-height: 20vh;

@@ -6,7 +6,7 @@ import {
   ScrollContainer,
   ScrollPage,
   Move,
-  batch,
+  batch,  
   Sticky,
   MoveOut,
   Fade,

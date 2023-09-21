@@ -31,13 +31,16 @@ width: 85vw !important;
 
   @media only screen and (max-height: 853px) {
 .maxhleptop{
-  max-height: 50% !important;
+  max-height: 60% !important;
   margin-top: 15vh !important;
 }
 .smallHeader {
   transform: translateY(0) !important;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+}
+.backgroundImg{
+  height: 100% !important;
 }
 
 

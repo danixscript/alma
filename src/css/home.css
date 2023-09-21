@@ -4,7 +4,7 @@
     background-image: url('../images/tablealma.jpg');
 background-position: center;
 background-size: cover;
-object-fit: cover;
+object-fit: contain;
 animation: slideShow 20s 2s infinite linear;
 position: relative;
 }
