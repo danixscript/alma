@@ -7,6 +7,8 @@ background-size: cover;
 object-fit: contain;
 animation: slideShow 20s 2s infinite linear;
 position: relative;
+outline: 1px solid black;
+outline-offset: 5px;
 }
 
 .backgroundImg:after {
@@ -107,9 +109,9 @@ transform: translateY(50px);
   
   
     color: #ffff;
-    border: 1px solid black;
+    border: 1px solid black solid black;
     padding: 10px 20px 10px 20px;
-    outline: 1px solid white;
+    outline: 1px solid black solid white;
     outline-offset: -5px;
     background-color: black;
   
