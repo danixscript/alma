@@ -37,7 +37,8 @@ function OneningImage(props) {
                               animate={{ opacity: 1,right:'-80px' }}
                               exit={{ opacity: 0 }}>
 
-                        <SocialButtonsHome />
+                        <SocialButtonsHome />  
+                        
 
 
                         </motion.div>
