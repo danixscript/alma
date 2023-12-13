@@ -50,7 +50,16 @@ width: 85vw !important;
   .paddingPage {
     width: 90% !important;
   }
- 
+  .flexColToRow{
+    flex-direction: row !important;
+  }
+  .marginleft{
+    margin-right: 10px;
+  }
+  .maxhleptop{
+    max-height: 40% !important;
+    margin-top: 15vh !important;
+  }
   .margintoponPhone{
     margin-top: 120px;
   }

@@ -36,6 +36,10 @@
     display: flex;
     flex-direction: column;
 }
+.flexColToRow{
+    display: flex;
+    flex-direction: column;
+}
 .margin_top50{
     margin-top: 50px;
 }

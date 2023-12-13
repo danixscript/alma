@@ -3,10 +3,10 @@ import "../../css/App.css";
 
 function SocialButtonsHome(props) {
   return (
-    <div className="  socialButtonsHome flexCol center  "> 
-    <div className="circleHome flexCol center  fa fa-facebook"></div>
-    <div className="circleHome flexCol center fa fa-instagram"></div>
-    <div className="circleHome flexCol center fa fa-twitter"></div>
+    <div className="  socialButtonsHome flexColToRow center  "> 
+    <div className="circleHome flexCol center marginleft "><il className="fa fa-facebook"></il></div>
+    <div className="circleHome flexCol center marginleft"><li className="fa fa-instagram"></li></div>
+    <div className="circleHome flexCol center "><li className="fa fa-twitter"></li></div>
 
      
     </div>
